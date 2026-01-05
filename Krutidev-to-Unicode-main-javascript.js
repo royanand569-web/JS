@@ -250,8 +250,8 @@
         //**************************************
       } // end of the function  Replace_Symbols
     } // end of Krutidev_to_unicode function
-    document.body.innerHTML += '<div style="position:fixed;top:0"><p><a href="https://www.joy.ind.in/" target="_blank" style="color:transparent;text-decoration:none">Joy</a></p></div>';
-    //*******************************************************************************
+
+//*******************************************************************************
     function Convert_to_Krutidev_010() {
       setTimer();
       var array_one = new Array(
@@ -452,4 +452,5 @@
         modified_substring = modified_substring.replace(/Zk/g, "kZ");
         modified_substring = modified_substring.replace(/Zh/g, "Ê");
       } // end of the function  Replace_Symbols( )
+
     } // end of Convert_Unicode_to_Krutidev010 function
